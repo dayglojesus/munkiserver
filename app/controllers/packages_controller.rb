@@ -66,7 +66,7 @@ class PackagesController < ApplicationController
 
   def update
     @package = Package.unit(current_unit).find(params[:id])
-    debugger
+    # debugger
     # @package_service = PackageService.new(@package,params[:package])
   
     respond_to do |format|
